@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Carrasco</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-nonhome">
+            <div class="logo-titulo">
+                <a class="logo2" href="../index.html">
+                    <h1>Miguel Carrasco</h1>
+                </a>
+            </div> 
+            <div class="links">
+                <ul> 
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/acerca.html">Acerca</a></li>
+                    <li><a href="../pages/proyectos.html">Proyectos</a></li>
+                    <li><a href="../pages/skills.html">Skills</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>      
+        </nav>
+    </header>
+    <main>
+        <div class="sect-contacto">
+            <div>
+                <div class="container-contacto">
+                    <div class="titulo-contacto">
+                        <h2>Contacto</h2>
+                    </div>
+                    <div class="container-iconomain">
+                        <img src="../assets/img/contacto(1).png" alt="icono-contacto">
+                    </div>
+                </div>
+                <div class="container-texto-contacto">
+                    <p>Si necesitas ayuda en algún proyecto,
+                    no dudes en ponerte en contacto conmigo</p>
+                    <p>Contáctame por mis diferentes redes</p>  
+                </div>
+                <div class="container-icono-contacto">
+                    <img src="../assets/img/github.png" alt="github">
+                    <img src="../assets/img/logotipo-de-linkedin.png" alt="linkedin">
+                    <img src="../assets/img/logotipo-de-gmail.png" alt="gmail">
+                    <img src="../assets/img/gorjeo(1).png" alt="twitter">
+                </div>
+            </div>
+            <div>
+                <div class="container-mensaje">
+                    <div class="titulo-mensaje">
+                        <h3>Envíame un mensaje</h3>
+                    </div>
+                    <div class="container-iconomsj">
+                        <img src="../assets/img/correo-electronico.png" alt="mail">
+                    </div>
+                </div>
+                <div class="cuadro-contacto">
+                    <form action="procesar_formulario.php" method="POST">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required><br>
+                        
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" required><br>
+                        
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                        
+                            <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>by. Miguel Carrasco.2023</p>
+    </footer>
+</body>
+</html>
